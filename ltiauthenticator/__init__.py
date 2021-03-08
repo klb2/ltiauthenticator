@@ -1,6 +1,6 @@
 import time
 
-from traitlets import Dict
+from traitlets import Dict, Unicode
 from tornado import gen, web
 
 from jupyterhub.auth import Authenticator
